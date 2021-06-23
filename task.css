@@ -1,0 +1,254 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding:0 ;
+    background-image: url("woodboard.jpg");
+    background-size: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+   
+    
+  
+}
+
+
+
+img{
+
+
+margin-top: 0.5cm;
+height: 6.5cm;
+width: 15cm;
+
+
+
+}
+
+
+#picture{
+
+
+
+ margin-left: 11cm; 
+
+}
+
+
+
+#text{
+
+    position: relative;
+    right: 480px;
+    bottom: 170px;
+    width: 11cm;
+    height: 8cm;
+    outline: none;
+    border: none;
+   background: none; 
+   color: red; 
+   
+  
+  
+  
+   
+
+
+
+
+}
+
+
+#date{
+
+position: relative;
+margin-left: 21.5cm;
+top: -225px;
+background: none;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+border: none;
+outline: none;
+font-size: medium;
+text-align: right;
+color: darkblue;
+
+}
+
+#hour{
+
+    position: relative;
+    left:-148px ;
+    top: -200px;
+    width: 3.7cm;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    outline: none;
+    background: none;
+
+    color: darkblue;
+    font-size: medium;
+    text-align: center;
+
+
+
+}
+
+h1{
+
+text-align: center;
+font-size: xx-large;
+font-family:cursive;
+font-stretch:wider;
+font-weight: bold;
+margin-top: 60px;
+}
+
+#add{
+
+text-align: center;
+position: relative;
+top: -380px;
+left: -80px;
+width: 2.5cm;
+height: 2cm;
+background-color:rgb(187, 80, 187);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+outline: none;
+box-shadow: 5px 10px 10px 5px;
+font-size:medium;
+
+    
+}
+
+
+#clean{
+
+text-align: center;
+position: relative;
+top: -280px;
+left: -170px;
+width: 2cm;
+height: 2cm;
+border-radius: 50px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+box-shadow: 5px 10px 10px 5px;
+background-color: burlywood;
+outline: none;
+font-size: medium;
+
+
+}
+
+
+#add:hover{
+
+cursor: cell;
+
+}
+
+#clean:hover{
+
+    cursor: pointer;
+}
+
+h1{
+
+box-shadow: 10px 5px 5px;
+background-color: rosybrown;
+font-size:1cm;
+font-family:cursive;
+font-style: italic;
+
+
+}
+
+
+
+
+
+
+.note{
+width: 5cm;
+position: relative;
+display: flex;
+left: 2cm;
+ animation: fadeIn ease 2s;
+ }
+@keyframes fadeIn {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+ }
+    
+
+.notecontent{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -4.6cm;
+    bottom: -3cm;
+   
+
+
+}
+
+.notetxt{
+    word-wrap: break-word;
+    width: 4cm;
+    height: 1.2cm;
+    overflow-y: auto;
+   
+    
+
+
+
+
+
+}
+
+.notedate{
+font-size: small;
+width: 2cm;
+margin-top: 1.3cm;
+
+
+
+}
+
+.notehour{
+font-size: small;
+margin-top: 0.2cm;
+
+
+}
+
+.notedetail{
+
+display: flex;
+flex-wrap:wrap;
+height: 400px;
+
+}
+
+
+.shadow{
+
+box-shadow: 10px 10px 10px 10px ;
+color:rgb(53, 47, 47);
+
+}
+
+
+.exit{
+   position: relative;
+  left: -5.5cm;
+  bottom: -1cm;
+
+
+}
+
+.exit:hover{
+
+cursor: pointer;
+color:  rgb(182, 133, 133);
+
+}
